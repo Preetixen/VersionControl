@@ -1,0 +1,35 @@
+1. Keep your laptop/desktop ready before coming to Lab.
+2. Install Ubuntu  16.10 on your computer system.
+3. Keep back up of your computer system data. (In case, installation of new software your system OS may be corrupted).
+4. Revise PPT/ Study Material/ Notebook before coming to Lab.
+5. Each Lab will be evaluated same day. So, you need to complete assignment in Lab Timing.
+
+Objective:
+
+C1. To improve the underdanding of virtualization concepts.
+C2. To understand the concepts and use of REKALL memory forensic tool to gain the debug information of OS to gain insight into kernel symbols. 
+C3. To understand the concepts and use of Guest-OS state based Virtual Machine Introspection tool (e. g. LibVMI) to detect hidden processes from outside the virtual domains.
+C4. To understand the concepts and use of Kernel-debugging based Virtual Machine Introspection tool (e. g. DRAKVUF) to perform execution tracing from outside the virtual machine. 
+C4. To understand the network attacks in virtual domains and how they are tackled using traditional security tool (SNORT).  
+C5. To understand and learn the basic architecture of Cloud by doing hand-on on open source Cloud Management tool.
+
+
+A1. Install Xen Hypervisor and Create Virtual Machine (with Windows 7 guest OS).
+
+A2. List all Domains from Privileged domain of Hypervisor. Connect to one of the Virtual Machine from Hypervisor (VMM) Console without password.
+
+A3. Install Rekall Memory Forensic Framework and configure it to create the PDB file of monitored virtual machine's operating system. 
+
+A4. Install LibVMI on Xen Hypervisor and extract the address location, name and process id of all processes running on monitored VM from Dom0. 
+
+A5. Intall DRAKVUF on Dom0 of VMM to extract the list of system calls of running processes, running inside monitored VM.
+
+A6. Install Wireshark and configure it to trace the Virtual Network Interfaces of Virtual domains running above it. Store the captured data for each virtual machine.
+
+A7. Install SNORT in one of the monitored Virtual Machine. Create the Attack traffic lets say scanning attack from one virtual machine to another virtual machine and detect it.
+
+A8. Configure SNORT to block all ICMP traffic comming to monitored Virtual Machine in which it is installed.
+
+A9. Setup OpenStack using three nodes, i.e. Network node, Controller node and Compute node. 
+
+ 
